@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 15px;
+  background: #020617;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-card {
+  background: #020617;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
